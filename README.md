@@ -20,7 +20,7 @@ Or install it yourself as:
 
 ## Usage
 
-Add Responders::JsonResponder to your responder chain:
+Add `Responders::JsonResponder` to your responder chain:
 
 ```ruby
 class ApplicationResponder < ActionController::Responder
