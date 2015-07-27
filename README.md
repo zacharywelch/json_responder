@@ -1,4 +1,4 @@
-# JsonResponder
+# json_responder
 
 A rails responder for json.
 
