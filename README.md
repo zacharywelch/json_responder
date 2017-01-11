@@ -7,7 +7,7 @@ A rails responder for json.
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'json_responder', git: 'git@cagit.careerbuilder.com:zwelch/json_responder.git'
+gem 'json_responder', git: 'git@cagit.careerbuilder.com:CorpAppsCB/json_responder.git'
 ```
 
 And then execute:
@@ -16,7 +16,7 @@ And then execute:
 
 Or install it yourself as:
 
-    $ gem install 'json_responder', git: 'git@cagit.careerbuilder.com:zwelch/json_responder.git'
+    $ gem install 'json_responder', git: 'git@cagit.careerbuilder.com:CorpAppsCB/json_responder.git'
 
 ## Usage
 
