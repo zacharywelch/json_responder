@@ -1,3 +1,3 @@
-class Artist < ActiveRecord::Base
+class Artist < ApplicationRecord
   validates :name, presence: true
 end

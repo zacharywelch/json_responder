@@ -1,14 +1,14 @@
 require 'rails_helper'
 
 module Responders
-  describe ArtistsController, type: :controller do
+  describe ArtistsController, type: :request do
 
     describe 'PUT /artists/:artist_id' do
       let(:artist) { Artist.create(name: 'foo') }
       let(:json) { JSON.parse(response.body) }
 
       before do
-        put :update, format: :json, id: artist, name: name
+        put artist_path(artist), params: { name: name, format: :json }
       end
 
       context 'when valid params' do
