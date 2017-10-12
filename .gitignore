@@ -6,7 +6,11 @@
 /doc/
 /pkg/
 /spec/reports/
+/spec/dummy/log/*.log
+/spec/dummy/tmp/
+/spec/dummy/db/*.sqlite3
 /tmp/
+.rspec
 *.bundle
 *.so
 *.o
