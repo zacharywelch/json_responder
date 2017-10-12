@@ -7,16 +7,12 @@ A rails responder for json.
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'json_responder', git: 'git@cagit.careerbuilder.com:CorpAppsCB/json_responder.git'
+gem 'json_responder', git: 'git@github.com:zacharywelch/json_responder.git'
 ```
 
 And then execute:
 
     $ bundle
-
-Or install it yourself as:
-
-    $ gem install 'json_responder', git: 'git@cagit.careerbuilder.com:CorpAppsCB/json_responder.git'
 
 ## Usage
 
