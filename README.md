@@ -4,6 +4,8 @@ A rails responder for json.
 
 ## Installation
 
+`json_responder` 1.0.0 works with Rails 4.0 onwards.
+
 Add this line to your application's Gemfile:
 
 ```ruby
